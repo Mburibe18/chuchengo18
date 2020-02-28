@@ -21,13 +21,14 @@ print(MENSAJE_BIENVENIDO)
 _paisPaciente =  input (PREGUNTA_PAIS_PACIENTE)
 if (_paisPaciente == "china") or (_paisPaciente == "iran") or (_paisPaciente == "italia") :
     print (MENSAJE_ESTADO_OBSERVACION)
-_temperaturaPaciente = float (input(PREGUNTA_TEMPERATURA_PACIENTE))
-if (_temperaturaPaciente >= 36) and (_temperaturaPaciente <= 38.4) :
-    print (MENSAJE_ESTADO_SALUDABLE)
-elif (_temperaturaPaciente <= 36) :
-    print (MENSAJE_ESTADO_HIPOTERMIA)
-elif (_temperaturaPaciente >= 38.5) and (_temperaturaPaciente <= 40) :
-    print (MENSAJE_ESTADO_DE_ALERTA)
 else:
-    print (MENSAJE_ESTADO_DE_PELIGRO)
+    _temperaturaPaciente = float (input(PREGUNTA_TEMPERATURA_PACIENTE))
+    if (_temperaturaPaciente >= 36) and (_temperaturaPaciente <= 38.4) :
+        print (MENSAJE_ESTADO_SALUDABLE)
+    elif (_temperaturaPaciente < 36) :
+            print (MENSAJE_ESTADO_HIPOTERMIA)
+    elif (_temperaturaPaciente >= 38.5) and (_temperaturaPaciente <= 40) :
+            print (MENSAJE_ESTADO_DE_ALERTA)
+    else:
+        print (MENSAJE_ESTADO_DE_PELIGRO)
 print (MENSAJE_DESPEDIDA)            
