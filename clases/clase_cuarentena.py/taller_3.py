@@ -13,12 +13,12 @@ def mostrar_list(listaAgesIniciales):
             print (listaAgesIniciales[i])
 
 def llenar_the_list ():
-    lista = []
+    list = []
     decision = input ("ingrese s--> para add mas ages n--> para no add mas ages : ")
     while (decision =="s"):
-        lista.append (input("Ingrese la age del paciente a la lista : "))
+        list.append (input("Ingrese la age del paciente a la lista : "))
         decision = input ("ingrese s--> para add mas personas n--> para no add mas personas :")
-    return lista
+    return list
 
 print ("desea ingresar la age de los pacientes? : ")
 ages = llenar_the_list()
