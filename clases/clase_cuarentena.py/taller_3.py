@@ -5,56 +5,56 @@ MENSAJE_BIENVENIDO = "Bienvenido al programa"
 
 print(MENSAJE_BIENVENIDO)
 
-listaEdadesIniciales =[1,2,3,8,16,32,64]
+listaAgesIniciales =[1,2,3,8,16,32,64]
 
-def mostrar_lista(listaEdadesIniciales):
-    if ( len ( listaEdadesIniciales)):
-        for i in range (len(listaEdadesIniciales)):
-            print (listaEdadesIniciales[i])
+def mostrar_list(listaAgesIniciales):
+    if ( len ( listaAgesIniciales)):
+        for i in range (len(listaAgesIniciales)):
+            print (listaAgesIniciales[i])
 
-def llenar_lista ():
+def llenar_the_list ():
     lista = []
-    decision = input ("ingrese s--> para agregar mas edades n--> para no agregar mas edades : ")
+    decision = input ("ingrese s--> para add mas ages n--> para no add mas ages : ")
     while (decision =="s"):
-        lista.append (input("Ingrese la edad del paciente a la lista : "))
-        decision = input ("ingrese s--> para agregar mas personas n--> para no agregar mas personas :")
+        lista.append (input("Ingrese la age del paciente a la lista : "))
+        decision = input ("ingrese s--> para add mas personas n--> para no add mas personas :")
     return lista
 
-print ("desea ingresar la edad de los pacientes? : ")
-edades = llenar_lista()
+print ("desea ingresar la age de los pacientes? : ")
+ages = llenar_the_list()
 
-mostrar_lista(edades)
+mostrar_list (ages)
 
 
-promedio = (((1+2+4+8+16+32+64)/7))
-print ("este es promedio de edad : ")
-print (promedio)
+avarage = (((1+2+4+8+16+32+64)/7))
+print ("el avarage of age is : ")
+print (avarage)
 
-listaEdadesIniciales = [1,2,4,8,16,32,64]
-lista_extra = [edades]
-lista_extra.extend(listaEdadesIniciales)
+listaAgesIniciales = [1,2,4,8,16,32,64]
+lista_extra = [ages]
+lista_extra.extend(listaAgesIniciales)
 print(lista_extra)
 
-print("la edad mas grande en la lista de nuevos {} es el {}".format(edades, max (edades)))
-print("la edad mas grande en la lista inicial {} es el {}".format(listaEdadesIniciales, max(listaEdadesIniciales)))
+print("la age mas grande en la lista de news {} es el {}".format(ages, max (ages)))
+print("la age mas grande en la lista inicial {} es el {}".format(listaAgesIniciales, max(listaAgesIniciales)))
 
-print("la edad mas pequeña en la lista de nuevos {} es el {}".format(edades, min(edades)))
-print("la edad mas pequeña en la lista inicial {} es el {}".format(listaEdadesIniciales, min (listaEdadesIniciales)))
+print("la age mas pequeña en la lista de news {} es el {}".format(ages, min(ages)))
+print("la age mas pequeña en la lista inicial {} es el {}".format(listaAgesIniciales, min (listaAgesIniciales)))
 
-edades.sort()
-print("lista nuevos ordenada creciente {}".format(edades))
-listaEdadesIniciales.sort()
-print ("lista iniciales ordenada creciente {}".format(listaEdadesIniciales))
+ages.sort()
+print("lista news ordenada creciente {}".format(ages))
+listaAgesIniciales.sort()
+print ("lista iniciales ordenada creciente {}".format(listaAgesIniciales))
 
-edades.sort(reverse=True)
-print ("lista nuevos ordenada decreciente {}".format(edades))
-listaEdadesIniciales.sort(reverse=True)
-print ("lista iniciales ordenada decreciente {}".format(listaEdadesIniciales))
+ages.sort(reverse=True)
+print ("lista news ordenada decreciente {}".format(ages))
+listaAgesIniciales.sort(reverse=True)
+print ("lista iniciales ordenada decreciente {}".format(listaAgesIniciales))
 
-print(listaEdadesIniciales)
-listaEdadesIniciales.insert (4,87)
-print("tu has insertado el numero 87 en la posicion 4")
-print (listaEdadesIniciales)
+print(listaAgesIniciales)
+listaAgesIniciales.insert (4,87)
+print("you have insertado el number 87 en la position 4")
+print (listaAgesIniciales)
 
-valor_borrado = listaEdadesIniciales.pop(6)
-print (listaEdadesIniciales , "la edad borrada fue el numero {} de la posicion seis de la lista".format(valor_borrado))
+valor_borrado = listaAgesIniciales.pop(6)
+print (listaAgesIniciales , "la age deleted fue el number {} de la position seis de la lista".format(valor_borrado))
