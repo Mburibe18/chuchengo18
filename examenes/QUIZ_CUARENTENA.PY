@@ -32,33 +32,7 @@ def complete_list (listainicial):
         6. end
     """)
      
-        weight_1 =32
-     preasure_1= (6*weight_1)
-        weight_2 =64
-     preasure_2= (6*weight_2)
-        weight_3= 74
-     preasure_3= (6*weight_3)
-        weight_4= 85
-     preasure_4= (6*weight_4)
-        weight_5 =98
-     preasure_5= (6*weight_5)
-        weight_6= 115
-     preasure_6= (6*weight_6)
-        weight_7= 122
-     preasure_7= (6*weight_7)
-        weight_8 =127
-     preasure_8= (6*weight_8)
-        weight_9= 137
-     preasure_9= (6*weight_9)
-        weight_10= 148
-     preasure_10= (6*weight_10)
-
-     print (preasure_1,preasure_2,preasure_3,preasure_4,preasure_5,preasure_6,preasure_7,preasure_8,preasure_9,preasure_10)
-
-     
-
-
-    while(decition != "4"):
+      while(decition != "4"):
         if (decition =="1")
             print(weightInitialpatients)
         elif (decition =="2")
