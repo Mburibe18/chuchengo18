@@ -1,9 +1,9 @@
 #-------------Mensajes------------
-MENSAJE_BIENVENIDO = "Bienvenido al programa"
+MENSAJE_WELCOME = "Welcome to the program"
 
 #-------------Codigo--------------
 
-print(MENSAJE_BIENVENIDO)
+print(MENSAJE_WELCOME)
 
 listaAgesIniciales =[1,2,3,8,16,32,64]
 
@@ -14,13 +14,13 @@ def mostrar_list(listaAgesIniciales):
 
 def llenar_the_list ():
     list = []
-    decision = input ("ingrese s--> para add mas ages n--> para no add mas ages : ")
+    decision = input ("ingrese s--> for add more ages n-->  no add more ages : ")
     while (decision =="s"):
-        list.append (input("Ingrese la age del paciente a la lista : "))
-        decision = input ("ingrese s--> para add mas personas n--> para no add mas personas :")
+        list.append (input("enter the patient age to the list : "))
+        decision = input ("ingrese s--> for add more people n-->  no add more people :")
     return list
 
-print ("desea ingresar la age de los pacientes? : ")
+print ("do you like to add the patients age? : ")
 ages = llenar_the_list()
 
 mostrar_list (ages)
