@@ -1,4 +1,3 @@
-
 MENSAJE_OF_ENTRANCE ="Hi , welcome to this hospital"
 
 print (MENSAJE_OF_ENTRANCE)
