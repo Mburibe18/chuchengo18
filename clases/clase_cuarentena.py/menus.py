@@ -1,20 +1,14 @@
-#--------MENSAJES------
 MENSAJE_WELCOME = "hola , khe onda"
-#--------PREGUNTA--------
 PREGUNTA_AGE = "Dime tu age"
-#--------PREGUNTA--------
 PREGUNTA_LIST_DE_COMPRAS = "do you like to adquirir articulos ? s ->si n ->no "
-#--------CODIGO--------
 listCompras = "this will be tu lista de compras product by product"
-#--------CODIGO--------
 deleteProducto = "do u like to delete  un product de la lista ? cual ? s ->si n->no"
-#--------PREGUNTA--------
 PREGUNTA_NUMBER = "ingresa el number de products que quieras eliminar"
-#---------------------------------
+
 print(MENSAJE_WELCOME)
 
 _desicion = int (input("""
-    ingrese :
+    enter :
     1-age
     2-lista de productos to buy
     3-lista de compras product by product
