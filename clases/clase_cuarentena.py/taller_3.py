@@ -1,7 +1,4 @@
-#-------------Mensajes------------
 MENSAJE_WELCOME = "Welcome to the program"
-
-#-------------Codigo--------------
 
 print(MENSAJE_WELCOME)
 
@@ -35,16 +32,16 @@ lista_extra = [ages]
 lista_extra.extend(listaAgesIniciales)
 print(lista_extra)
 
-print("la age mas grande en la lista de news {} es el {}".format(ages, max (ages)))
 print("la age mas grande en la lista inicial {} es el {}".format(listaAgesIniciales, max(listaAgesIniciales)))
+print("la age mas grande en la lista de news {} es el {}".format(ages, max (ages)))
 
-print("la age mas pequeña en la lista de news {} es el {}".format(ages, min(ages)))
 print("la age mas pequeña en la lista inicial {} es el {}".format(listaAgesIniciales, min (listaAgesIniciales)))
+print("la age mas pequeña en la lista de news {} es el {}".format(ages, min(ages)))
 
 ages.sort()
-print("lista news ordenada creciente {}".format(ages))
 listaAgesIniciales.sort()
 print ("lista iniciales ordenada creciente {}".format(listaAgesIniciales))
+print("lista news ordenada creciente {}".format(ages))
 
 ages.sort(reverse=True)
 print ("lista news ordenada decreciente {}".format(ages))
