@@ -1,4 +1,4 @@
-#Ingenierio clinico
+#Ingeniero biomedico (IA)
 
 _En este lugar subire informacion_
 
